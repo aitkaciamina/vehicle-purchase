@@ -1,0 +1,28 @@
+function needsLicense(d)
+{
+  if (d==='car' || d==='truck')
+  console.log('need driving license');
+else 
+console.log('false');
+}
+
+needsLicense('car')
+
+function chooseVehicle(p1,p2)
+{
+  console.log(p1,'is the best');
+}
+
+chooseVehicle('Wuling Hongguang', 'Toyota Corolla')
+
+function calculateResellPrice(original_price , year)
+{
+if (year<3)
+console.log('the price is : ',0.8*original_price);
+if (year>10)
+console.log('the price is : ',0.5*original_price);
+else if (year<10 && year>3)
+console.log('the price is : ',0.7*original_price);
+}
+
+calculateResellPrice(1000, 1);
